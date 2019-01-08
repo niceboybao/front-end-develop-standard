@@ -1,18 +1,23 @@
 # Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
-
+dist/
+www/
+/node_module
 # Other files and folders
-.settings/
+/.settings/
+/npm-debug.log
 
 # Executables
-*.swf
-*.air
-*.ipa
+*bak.*
 *.apk
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+
+# grammar
+# # 此为注释 – 将被 Git 忽略
+# *.a       # 忽略所有 .a 结尾的文件
+# !lib.a    # 但 lib.a 除外
+# /TODO     # 仅仅忽略项目根目录下的 TODO 文件，不包括 subdir/TODO
+# build/    # 忽略 build/ 目录下的所有文件
+# doc/*.txt # 会忽略 doc/notes.txt 但不包括 doc/server/arch.txt

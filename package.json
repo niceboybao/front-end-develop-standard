@@ -1,0 +1,16 @@
+{
+    "name": "front-end-develop-standard.git",
+    "version": "1.0.0",
+    "description": "前端开发规范手册",
+    "main": "index.js",
+    "repository": "https://github.com/niceboybao/front-end-develop-standard.git",
+    "author": "baldwin <niceboybao@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "docs:dev": "vuepress dev docs",
+        "docs:build": "vuepress build docs"
+    },
+    "devDependencies": {
+        "vuepress": "^0.14.8"
+    }
+}
