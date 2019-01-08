@@ -1,3 +1,11 @@
+/*
+ * @Author: guangwei.bao 
+ * @Date: 2019-01-08 14:39:31 
+ * @Last Modified by: guangwei.bao
+ * @Last Modified time: 2019-01-08 14:40:03
+ * @Describe: vuepress 配置文件
+ */
+
 module.exports = {
 	title: '前端开发规范手册',
 	description: '前端开发规范手册',
@@ -50,7 +58,7 @@ module.exports = {
 			// 关于
 			'/about/': [
 				{
-					title: '关于',
+					title: 'test',
 					collapsable: false,
 					children: [ '/about/' ]
 				}
