@@ -8,6 +8,7 @@ www/
 
 # Executables
 *bak.*
+*test.*
 *.apk
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`

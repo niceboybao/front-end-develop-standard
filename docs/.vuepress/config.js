@@ -1,101 +1,116 @@
 /*
- * @Author: guangwei.bao 
- * @Date: 2019-01-08 14:39:31 
+ * @Author: guangwei.bao
+ * @Date: 2019-01-08 14:39:31
  * @Last Modified by: guangwei.bao
- * @Last Modified time: 2019-01-08 14:40:03
+ * @Last Modified time: 2019-01-10 15:31:45
  * @Describe: vuepress 配置文件
  */
-
 module.exports = {
-	title: '前端开发规范手册',
-	description: '前端开发规范手册',
-	base: '/wiki/front-end-develop-standard/', // 将部署站点的基本URL
-	head: [
-		[
-			'link',
-			{
-				rel: 'icon',
-				href: 'https://niceboybao.com/static_res/images/favicon.ico'
-			}
-		]
-	],
-	DEST: '.vuepress/dist', // 指定输出目录
-	themeConfig: {
-		lastUpdated: 'Last Updated', // 最后更新时间
-		displayAllHeaders: true, // 展开所有标题
-		nav: [
-			{
-				text: '快速入门',
-				link: '/'
-			},
-			{
-				text: '工程规范',
-				link: '/html'
-			},
-			{
-				text: '代码规范',
-				items: [
-					{
-						text: 'html',
-						link: '/language/chinese'
-					},
-					{
-						text: 'css',
-						link: '/language/japanese'
-					},
-					{
-						text: 'javascript',
-						link: '/language/japanese'
-					}
-				]
-			},
-			{
-				text: '关于',
-				link: '/about/'
-			}
-		],
-		sidebar: {
-			// 关于
-			'/about/': [
-				{
-					title: 'test',
-					collapsable: false,
-					children: [ '/about/' ]
-				}
-			],
-			// 首页
-			'/': [
-				{
-					title: '快速入门 1',
-					collapsable: false,
-					children: [ '/' ]
-				},
-				{
-					title: '快速入门 2',
-					collapsable: false,
-					children: [ '/page-a' ]
-				}
-			]
-		}
-		// sidebar: {
-		//     '/foo/': [
-		//       '',     /* /foo/ */
-		//       'one',  /* /foo/one.html */
-		//       'two'   /* /foo/two.html */
-		//     ],
+    title: '前端开发规范手册',
+    description: '前端开发规范手册',
+    base: '/wiki/front-end-develop-standard/', // 将部署站点的基本URL
+    head: [
+        [
+            'link',
+            {
+                rel: 'icon',
+                href: 'https://niceboybao.com/static_res/images/favicon.ico'
+            }
+        ]
+    ],
+    DEST: '.vuepress/dist', // 指定输出目录
+    themeConfig: {
+        lastUpdated: '上次更新',
+        serviceWorker: {
+            updatePopup: {
+                message: '发现新内容可用',
+                buttonText: '刷新'
+            }
+        },
+        displayAllHeaders: true, // 展开所有标题
+        // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
+        repo: 'https://github.com/niceboybao/front-end-develop-standard',
+        // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
+        // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
+        repoLabel: '查看源码',
 
-		//     '/bar/': [
-		//       '',      /* /bar/ */
-		//       'three', /* /bar/three.html */
-		//       'four'   /* /bar/four.html */
-		//     ],
-
-		//     // fallback
-		//     '/': [
-		//       '',        /* / */
-		//       'contact', /* /contact.html */
-		//       'about'    /* /about.html */
-		//     ]
-		//   }
-	}
+        // 以下为可选的编辑链接选项
+        // 假如你的文档仓库和项目本身不在一个仓库：
+        // docsRepo: 'vuejs/vuepress',
+        // 假如文档不是放在仓库的根目录下：
+        docsDir: 'docs',
+        // 假如文档放在一个特定的分支下：
+        docsBranch: 'master',
+        // 默认是 false, 设置为 true 来启用
+        editLinks: true,
+        // 默认为 "Edit this page"
+        editLinkText: '在GitHub上编辑此页面',
+        nav: [{
+                text: '快速入门',
+                link: '/'
+            },
+            {
+                text: '命名规范',
+                link: '/name/'
+            },
+            {
+                text: '代码规范',
+                items: [{
+                        text: 'HTML',
+                        link: '/code/html/'
+                    },
+                    {
+                        text: 'CSS',
+                        link: '/code/css/'
+                    },
+                    {
+                        text: 'JavaScript',
+                        link: '/code/javascript/'
+                    }
+                ]
+            },
+            {
+                text: '关于',
+                link: '/about/'
+            }
+        ],
+        sidebar: {
+            // 命名规范
+            '/name/': [{
+                title: '',
+                collapsable: false,
+                children: ['/name/']
+            }],
+            // 代码规范 html
+            '/code/html/': [{
+                title: '',
+                collapsable: false,
+                children: ['/code/html/']
+            }],
+            // 代码规范 css
+            '/code/css/': [{
+                title: '',
+                collapsable: false,
+                children: ['/code/css/']
+            }],
+            // 代码规范 javascript
+            '/code/javascript/': [{
+                title: '',
+                collapsable: false,
+                children: ['/code/javascript/']
+            }],
+            // 关于
+            '/about/': [{
+                title: '',
+                collapsable: false,
+                children: ['/about/']
+            }],
+            // 快速入门
+            '/': [{
+                title: '',
+                collapsable: false,
+                children: ['/']
+            }]
+        }
+    }
 };
