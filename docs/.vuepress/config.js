@@ -2,13 +2,13 @@
  * @Author: guangwei.bao
  * @Date: 2019-01-08 14:39:31
  * @Last Modified by: guangwei.bao
- * @Last Modified time: 2019-01-12 15:19:19
+ * @Last Modified time: 2019-01-15 11:18:56
  * @Describe: vuepress 配置文件
  */
 module.exports = {
 	title: '前端开发规范手册',
 	description: '前端开发规范手册',
-	base: '/wiki/front-end-develop-standard/', // 将部署站点的基本URL
+	base: '/front-end-develop-standard/', // 将部署站点的基本URL
 	head: [
 		[
 			'link',
