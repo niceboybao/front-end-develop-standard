@@ -33,7 +33,6 @@ next: ../../code/css/
     </head>
     <body>
         <img src="images/company_logo.png" alt="Company">
-
         <h1 class="hello-world">Hello, world!</h1>
     </body>
 </html>
