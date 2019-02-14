@@ -6,7 +6,7 @@ editLink: true
 
 # 快速入门
 
-![standard.jpg](./images/standard.jpg)
+![front-end-develop-standard01.jpg](./images/front-end-develop-standard01.jpg)
 
 > 不以规矩，不能成方圆。 对于团队而言，统一很重要，代码是写给人看的，然后顺便跑在机器上而已。
 
@@ -34,7 +34,7 @@ editLink: true
 
 我们知道，当一个团队开始指定并实行编码规范的话，错误就会变得更加显而易见。 如果一段特定的代码不符合规范的话，它有可能只是代码风格错误，而也有可能会是 bug。 早期指定规范就使得代码审核得以更好的开展，并且可以更精确的地定位到错误。 只要开发者们能够保证源代码源文件都严格遵循规范，那接下去所使用的混淆、压缩和编译工具则可投其所好不尽相同。 为了提高工作效率，便于后台人员添加功能及前端后期优化维护，输出高质量的文档。 在项目构建中，使结构更加清晰，代码简明有序，有一个更好的前端架构。
 
-## 开始
+## 介绍
 
 工程架构基于`vuepress`搭建而成，源码地址<https://github.com/niceboybao/front-end-develop-standard>欢迎`push`和`star`~
 

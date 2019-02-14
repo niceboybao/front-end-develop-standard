@@ -2,12 +2,12 @@
  * @Author: guangwei.bao
  * @Date: 2019-01-08 14:39:31
  * @Last Modified by: guangwei.bao
- * @Last Modified time: 2019-01-15 11:18:56
+ * @Last Modified time: 2019-02-14 17:33:56
  * @Describe: vuepress 配置文件
  */
 module.exports = {
-	title: '前端开发规范手册',
-	description: '前端开发规范手册',
+	title: '前端开发规范手册@iSoftStone',
+	description: '前端开发规范手册@iSoftStone',
 	base: '/front-end-develop-standard/', // 将部署站点的基本URL
 	head: [
 		[

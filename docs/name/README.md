@@ -5,7 +5,7 @@ next: ../code/html/
 
 # 命名规范
 
-![front-end.jpg](../images/front-end.jpg)
+![front-end-develop-standard02.jpg](../images/front-end-develop-standard02.jpg)
 
 ## 最佳原则
 

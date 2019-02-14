@@ -6,6 +6,8 @@ editLink: true
 
 # 项目应用
 
+![front-end-develop-standard07.jpg](../images/front-end-develop-standard07.jpg)
+
 ## 忧虑
 
 你是不是总是在抱怨项目组的各方面不统一，不好维护，千奇百怪？
@@ -57,4 +59,69 @@ editLink: true
 
 这时候有的人会说，其实XXX插件比你的这2个还好。说实话，一点问题都没有。但是，我这里强调的不是插件的好坏，我强调的是`统一`二字。
 
-## 写在最后
+## 写给我的项目组
+
+前端项目组推荐使用VS Code编辑器，很轻量级，也挺好上手！不熟悉的可参考我整理文档（都给你们准备好了）[请参考强大的VS Code]((https://juejin.im/post/5b123ace6fb9a01e6f560a4b))
+
+### 统一格式刷插件
+
+[Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) ： 代码格式化插件，主要针对工程中的JavaScript / TypeScript / CSS
+
+[Prettier Now](https://marketplace.visualstudio.com/items?itemName=remimarsal.prettier-now) ： 支持语言比较全面的代码格式化插件，主要是支持jsx /tsx ，还有sass / less等
+
+> react项目、js原生项目有这2款插件就够了，其他工程的仅供参考。老项目维护前先格式化一遍，再开始维护；代码提交之前一定要格式化一遍(最好吧格式化快捷键当 `control + s`按)。规范了格式刷，实际项目中能省不少麻烦，没有用VS Code的请自行研究编辑器格式化插件。
+
+### 更好的管理代码
+
+- 代码统一缩进4格；
+
+> 统一缩进能给代码提交、分支合并等减少很多麻烦
+
+```javascript
+{
+  // 设置格式化缩进4格
+  "prettier.tabWidth": 4,
+  "vetur.format.defaultFormatter.html": "prettier"
+}
+```
+
+- 每个文件头部生成如下信息(文件创建者和最后修改者、及相关时间)[强大的VS Code]((https://juejin.im/post/5b123ace6fb9a01e6f560a4b))中有插件介绍,插件名称： `fileheader`。
+
+> 这样做的好处是能很清楚每个文件的创建者、修改者，遇到问题或者代码交接能很快定位到人，记得每个文件Describe一下说明文件用意！如下：
+
+```javascript
+  // 头部信息
+  /*
+  * @Author: guangwei.bao
+  * @Date: 2018-10-08 10:34:37
+  * @Last Modified by: guangwei.bao
+  * @Last Modified time: 2018-11-21 10:23:58
+  * @Describe: 付款页面
+  */
+
+  // settings
+  {
+    // 设置格式化缩进4格
+    "prettier.tabWidth": 4,
+    "vetur.format.defaultFormatter.html": "prettier"
+  }
+```
+
+- git代码管理
+
+> 下载好用的git代码管理插件，下拉代码对比一下，merge代码对比一下，代码提交前对比一下。
+
+### 如何安装插件
+
+一般情况下直接在VS Code里面搜索到对应的插件下载即可，但我的项目组有自己的开发云桌面，访问不了外网，这种情况下插件安装就只能用`离线安装` 或者 `有网安装再拷贝了`，离线安装请自行百度或者google[安装教程](https://www.cnblogs.com/majianguo/p/6561147.html)。
+
+这里推荐`本地安装好再拷贝到云桌面`，本地安装好的自定义插件路径如下(默认安装路径，自己有手动修改的按修改后的查找)
+
+```javascript
+  // windows系统
+  C:\Users\用户名\.vscode\extensions
+  // mac os系统
+  /Users/用户名/.vscode/extensions
+```
+
+VS Code自定义插件都在 `.vscode` 隐藏路径的 `extensions` 文件夹下面，本地安装好后把 `extensions` 文件夹拷贝到云桌面相应路径，然后重启编辑器即可。
