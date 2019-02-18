@@ -16,9 +16,9 @@
 
 ## 介绍
 
-工程架构基于`vuepress`搭建而成；文档编写参考[airbnb JavaScript样式指南](https://github.com/airbnb/javascript)，[github代码库总结出来的工程师代码书写习惯](http://alloyteam.github.io/CodeGuide/#js-indentation)等多个热门的前端开源规范库,并结合个人项目总结而成。
+工程架构基于`vuepress`搭建而成；文档编写参考[airbnb JavaScript样式指南](https://github.com/airbnb/javascript)、[网易前端开发规范-css规范-html规范-工程师规范](http://nec.netease.com/standard)、[Baidu EFE team 前端开发规范大全(包括react.js规范)](https://github.com/ecomfe/spec)、等多个热门的前端开源规范参考,并结合个人项目总结而成。项目 `快速预览图` 如下，[快速预览图链接点击这里](https://wiki.niceboybao.com/front-end-develop-standard/)。
 
-[前端开发规范手册预览](https://wiki.niceboybao.com/front-end-develop-standard/)
+![front-end-develop-standard01.gif](./docs/images/front-end-develop-standard01.gif)
 
 ## 快速开始
 
@@ -26,7 +26,7 @@
 
 ### yarn install
 
-工程包管理工具依赖`yarn`,先直接 `yarn install`
+工程包管理工具依赖`yarn`,请先执行 `yarn install`，没有按照`yarn`的请下全局安装一下。
 
 ### yarn run docs:build
 
@@ -39,7 +39,22 @@ vuepress 本地快速预览
 ### 参考文档
 
 - [使用Doctype激活浏览器模式](https://hsivonen.fi/doctype/)
-- ？？？？？
+- [AMD 和 CMD 的区别有哪些？](https://www.zhihu.com/question/20351507)
+- [AMD规范与CMD规范的区别](http://www.cnblogs.com/tugenhua0707/p/3507957.html)
+- [airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+- [airbnb JavaScript Style Guide中文版](https://github.com/yuche/javascript)
+- [通过分析github代码库总结出来的工程师代码书写习惯](http://alloyteam.github.io/CodeGuide/#js-indentation)
+- [「掘金」前端开发规范：命名规范、html规范、css规范、js规范](https://juejin.im/post/592d4a5b0ce463006b43b6da)
+- [编码规范 by @mdo](https://codeguide.bootcss.com/)
+- [Max Yu javascript编码规范](http://yuwenhui.github.io/2013/09/13/Javascript-syntax/)
+- [Max Yu CSS编码规范](http://yuwenhui.github.io/2013/09/13/css-syntax/)
+- [前端编码规范之JavaScript](http://www.cnblogs.com/hustskyking/p/javascript-spec.html)
+- [网易前端开发规范-css规范-html规范-工程师规范](http://nec.netease.com/standard)
+- [Baidu EFE team 前端开发规范大全(包括react.js规范)](https://github.com/ecomfe/spec)
+- [前端架构之路（3） - 前端开发规范](https://segmentfault.com/a/1190000015297522)
+- [腾讯前端IMWEB团队社区](http://imweb.github.io/rule/)
+- [前端编码规范（4）- CSS 和 Sass (SCSS) 规范](https://www.html.cn/archives/5505)
+- [JavaScript 开发规范](http://www.cnblogs.com/polk6/p/4660195.html)
 
 ## 开源协议
 
