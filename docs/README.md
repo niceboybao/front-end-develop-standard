@@ -36,6 +36,8 @@ editLink: true
 
 ## 介绍
 
-工程架构基于`vuepress`搭建而成，源码地址<https://github.com/niceboybao/front-end-develop-standard>，如有问题请访问[New Issue](https://github.com/niceboybao/front-end-develop-standard/issues)，欢迎`push`相关内容加入贡献者行列，要是觉得文档还能凑合着看，欢迎`star`~
+工程架构基于 `vuepress` 搭建而成，源码地址<https://github.com/niceboybao/front-end-develop-standard>，如有问题请点击[New Issue](https://github.com/niceboybao/front-end-develop-standard/issues)，欢迎 `push` 相关内容加入贡献者行列，要是觉得文档还能凑合着看，欢迎 `star` ~
 
-文档编写参考[airbnb JavaScript样式指南](https://github.com/airbnb/javascript)，[github代码库总结出来的工程师代码书写习惯](http://alloyteam.github.io/CodeGuide/#js-indentation)等多个热门的前端开源规范库,并结合个人项目总结而成。
+文档编写参考[airbnb JavaScript样式指南](https://github.com/airbnb/javascript)、[网易前端开发规范-css规范-html规范-工程师规范](http://nec.netease.com/standard)、[Baidu EFE team 前端开发规范大全(包括react.js规范)](https://github.com/ecomfe/spec)、等多个热门的前端开源规范参考,并结合个人项目总结而成。项目 `快速预览图` 如下：
+
+![front-end-develop-standard01.gif](./images/front-end-develop-standard01.gif)
