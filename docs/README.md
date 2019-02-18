@@ -24,11 +24,11 @@ editLink: true
 
 每一种事物都有它被发明时，都会有其用处和目的，每一个事物都是自己擅长和适合的领域； 我们要在对的地方使用它，让它做自己擅长的事。
 
-- 规范的代码可以促进团队合作
-- 规范的代码可以减少bug处理
-- 规范的代码可以降低维护成本
-- 规范的代码有助于代码审查
-- 养成代码规范的习惯，有助于程序员自身的成长
+- 规范的代码可以促进团队合作；
+- 规范的代码可以减少bug处理；
+- 规范的代码可以降低维护成本；
+- 规范的代码有助于代码审查；
+- 养成代码规范的习惯，有助于程序员自身的成长；
 
 ## 规范的目的
 
@@ -36,6 +36,6 @@ editLink: true
 
 ## 介绍
 
-工程架构基于`vuepress`搭建而成，源码地址<https://github.com/niceboybao/front-end-develop-standard>欢迎`push`和`star`~
+工程架构基于`vuepress`搭建而成，源码地址<https://github.com/niceboybao/front-end-develop-standard>，如有问题请访问[New Issue](https://github.com/niceboybao/front-end-develop-standard/issues)，欢迎`push`相关内容加入贡献者行列，要是觉得文档还能凑合着看，欢迎`star`~
 
 文档编写参考[airbnb JavaScript样式指南](https://github.com/airbnb/javascript)，[github代码库总结出来的工程师代码书写习惯](http://alloyteam.github.io/CodeGuide/#js-indentation)等多个热门的前端开源规范库,并结合个人项目总结而成。

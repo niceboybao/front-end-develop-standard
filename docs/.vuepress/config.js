@@ -2,7 +2,7 @@
  * @Author: guangwei.bao
  * @Date: 2019-01-08 14:39:31
  * @Last Modified by: guangwei.bao
- * @Last Modified time: 2019-02-14 17:33:56
+ * @Last Modified time: 2019-02-18 17:32:04
  * @Describe: vuepress 配置文件
  */
 module.exports = {
@@ -68,6 +68,14 @@ module.exports = {
 					{
 						text: 'JavaScript',
 						link: '/code/javascript/'
+					},
+					{
+						text: 'ECMAScript 6',
+						link: '/code/es6/'
+					},
+					{
+						text: 'react',
+						link: '/code/react/'
 					}
 				]
 			},
@@ -111,6 +119,22 @@ module.exports = {
 					title: '',
 					collapsable: false,
 					children: [ '/code/javascript/' ]
+				}
+			],
+			// 代码规范 es6
+			'/code/es6/': [
+				{
+					title: '',
+					collapsable: false,
+					children: [ '/code/es6/' ]
+				}
+			],
+			// 代码规范 react
+			'/code/react/': [
+				{
+					title: '',
+					collapsable: false,
+					children: [ '/code/react/' ]
 				}
 			],
 			// 关于

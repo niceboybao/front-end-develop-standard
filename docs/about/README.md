@@ -29,7 +29,7 @@ next: false
 - [AMD 和 CMD 的区别有哪些？](https://www.zhihu.com/question/20351507)
 - [AMD规范与CMD规范的区别](http://www.cnblogs.com/tugenhua0707/p/3507957.html)
 - [网易前端开发规范-css规范-html规范-工程师规范](http://nec.netease.com/standard)
-- [前端开发规范大全(包括react.js规范)](https://github.com/ecomfe/spec/blob/master/react-style-guide.md)
+- [Baidu EFE team 前端开发规范大全(包括react.js规范)](https://github.com/ecomfe/spec)
 
 ## 开源协议
 
