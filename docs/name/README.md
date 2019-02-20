@@ -23,9 +23,9 @@ next: ../code/html/
 
 例：my-project-name 和 front-end-develop-standard
 
-- PascalCase 帕斯卡命名法。(一些大厂项目也经常采用此类命名法)
+~~- PascalCase 帕斯卡命名法。(一些大厂项目也经常采用此类命名法)~~
 
-例：MyProjectName
+~~例：MyProjectName~~
 
 ### 目录命名
 
