@@ -19,15 +19,19 @@ next: ../code/html/
 
 ### 项目命名
 
-全部采用小写方式， 以下划线分隔。
+- 全部采用小写方式， 以横线分隔。（自己的项目、组件、插件使用的居多）
 
-例：my_project_name
+例：my-project-name 和 front-end-develop-standard
+
+- PascalCase 帕斯卡命名法。(一些大厂项目也经常采用此类命名法)
+
+例：MyProjectName
 
 ### 目录命名
 
 参照项目命名规则； 有复数结构时，要采用复数命名法。
 
-例：scripts, styles, images, data_models
+例：scripts, styles, images,components data_models
 
 ### HTML文件命名
 
